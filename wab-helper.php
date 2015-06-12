@@ -76,11 +76,13 @@ function custom_quicktags() {
   ?>
   <script type="text/javascript">
   QTags.addButton( 'qt-p', 'p', '<p>', '</p>', '', '', 1 );
+  QTags.addButton( 'qt-br', 'br', '<br>', '', '', '', 9 );
   QTags.addButton( 'qt-span', 'span', '<span>', '</span>', '', '', 11 );
   QTags.addButton( 'qt-h2', 'h2', '<h2>', '</h2>', '', '', 12 );
   QTags.addButton( 'qt-h3', 'h3', '<h3>', '</h3>', '', '', 13 );
   QTags.addButton( 'qt-h4', 'h4', '<h4>', '</h4>', '', '', 14 );
   QTags.addButton( 'qt-h5', 'h5', '<h5>', '</h5>', '', '', 15 );
+
   </script>
   <?php
   }
